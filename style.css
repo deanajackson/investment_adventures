@@ -67,12 +67,3 @@ button:hover {
 ul{
     list-style: none;
 }
-
-span{
-    opacity: 0;
-    transition: all 0.0001s ;
-}
-
-span.fade{
-    opacity: 1;
-}
