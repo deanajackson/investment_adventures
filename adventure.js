@@ -1,0 +1,1 @@
+const text = document.querySelector(".mentor-space");
