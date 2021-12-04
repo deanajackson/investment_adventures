@@ -1,4 +1,3 @@
-
     const text = document.querySelector("#msg");
     const strText = text.textContent;
     const splitText = strText.split("");
@@ -20,9 +19,11 @@ function onTick(){
         complete();
         return;
     }
+    
 }
 
 function complete(){
     clearInterval(timer);
     timer = null;
 }
+
